@@ -23,26 +23,6 @@ A API escuta na porta local através do endpoint `/gerar-senha`. Você pode pass
 | `minuscula` | boolean | true | Ativa letras minúsculas |
 | `numero` | boolean | true | Ativa números |
 | `simbolos` | boolean | true | Ativa símbolos especiais |
-
 ### 🔹 Exemplo de URL de teste (Navegador):
 ```http
 http://localhost:8080/gerar-senha?tamanho=12&numero=true&simbolos=true
-🔹 Exemplo de Resposta (JSON):
-JSON
-{
-  "senha": "k@9Xp!2Mv_7z",
-  "tamanho": 12,
-  "forca": "Muito Forte"
-}
-💻 Tecnologias Utilizadas
-Java
-
-Spring Boot (Spring Web)
-
-Git & GitHub para controle de versão
-
-🏁 Projeto desenvolvido para estudos e evolução de conceitos em Programação Orientada a Objetos (POO) e APIs REST.
-
-
-
-
